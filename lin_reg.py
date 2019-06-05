@@ -51,5 +51,5 @@ def lin_reg(m,n):			# Función "lin_reg" con m y n como parámetros (x,y)
     b = ((suma(y)*suma(x2))-(suma(xy)*suma(x))) / ((n*(suma(x2)))-sumx2)
 
     return a,b
-
+ 
 print ("VALORES DE A Y B, RESPECTIVAMENTE:", lin_reg (x,y))
